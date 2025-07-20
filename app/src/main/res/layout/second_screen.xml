@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Judul untuk Screen kedua -->
+    <TextView
+        android:id="@+id/textViewSecondScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Screen"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+    <!-- Teks Welcome -->
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold" />
+
+    <!-- User Name Text -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:layout_marginBottom="200dp" />
+
+    <!-- Selected User Name -->
+    <TextView
+        android:id="@+id/textViewSelectedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected User Name"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="200dp" />
+
+    <!-- Choose User Button -->
+    <Button
+        android:id="@+id/buttonChooseUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a User"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:textColor="@android:color/white"
+        android:minHeight="48dp"
+        android:paddingHorizontal="24dp" />
+
+</LinearLayout>

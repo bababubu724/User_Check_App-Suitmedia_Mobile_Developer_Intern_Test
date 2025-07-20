@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background_first"
+    android:gravity="center">
+
+    <!-- ImageView untuk Avatar -->
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- EditText untuk memasukkan nama -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg" />
+
+    <!-- EditText untuk memasukkan kalimat untuk pengecekan palindrome -->
+    <EditText
+        android:id="@+id/editTextPalindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Palindrome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg" />
+
+    <!-- Tombol untuk mengecek palindrome -->
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white" />
+
+    <!-- Tombol untuk melanjutkan ke screen kedua -->
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes"
+        android:background="@color/white" />
+
+</LinearLayout>
